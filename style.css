@@ -1,0 +1,39 @@
+.verifybtn{
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: white;
+    border-width: 3px;
+}
+.verifybtn:hover{
+    background-color: blueviolet;
+    border-width: 3px;
+    border-color: black;
+    color: white;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+  }
+
+.bottom-left {
+    position: absolute;
+    bottom: 0.5%;
+    left: 31.3%;
+    color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+  }
